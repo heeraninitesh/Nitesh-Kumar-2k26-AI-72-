@@ -1,0 +1,20 @@
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+# Union - all unique elements in A and B
+union = A | B
+print("Union (A | B):", union)
+
+# Intersection - common elements
+intersection = A & B
+print("Intersection (A & B):", intersection)
+
+# Difference
+a_minus_b = A - B
+b_minus_a = B - A
+print("A - B:", a_minus_b)
+print("B - A:", b_minus_a)
+
+# Symmetric difference
+sym_diff = A ^ B
+print("Symmetric Difference (A ^ B):", sym_diff)
