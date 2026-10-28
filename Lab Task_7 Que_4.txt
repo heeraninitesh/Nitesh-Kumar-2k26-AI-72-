@@ -1,0 +1,7 @@
+num = int(input("Enter a number: "))
+numbers_set = {10, 20, 30, 40, 50}
+
+if num in numbers_set:
+    print(f"{num} exists in the set.")
+else:
+    print(f"{num} does not exist in the set.")
